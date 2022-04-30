@@ -7,3 +7,6 @@
 [submodule "random"]
 	path = random
 	url = https://github.com/effolkronium/random
+[submodule "lex"]
+	path = lex
+	url = https://github.com/PG1003/lex.git
