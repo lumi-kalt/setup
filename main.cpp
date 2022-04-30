@@ -1,5 +1,5 @@
-#include <iostream>
+#include <fmt/core.h>
 
 int main() {
-    return 0;
+    fmt::print("Hello World!");
 }
