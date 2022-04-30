@@ -9,8 +9,8 @@ add_compile_options(-Wall -Wextra -pedantic -O3)
 project(setup VERSION 0.1.0)
 
 add_subdirectory(fmt)
-add_subdirectory(scnlib)
 add_subdirectory(random)
+add_subdirectory(scnlib)
 
 # Change this name later
 add_executable(setup main.cpp)
