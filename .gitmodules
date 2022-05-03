@@ -10,3 +10,6 @@
 [submodule "lex"]
 	path = lex
 	url = https://github.com/PG1003/lex.git
+[submodule "benri"]
+	path = benri
+	url = https://github.com/jansende/benri

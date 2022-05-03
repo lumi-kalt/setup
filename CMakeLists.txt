@@ -10,9 +10,10 @@ project(setup VERSION 0.1.0)
 
 add_subdirectory(fmt)
 add_subdirectory(scnlib)
+add_subdirectory(benri)
 
 # Change this name later
 add_executable(setup main.cpp)
 
 # Add libraries
-target_link_libraries(setup fmt::fmt scn::scn)
+target_link_libraries(setup fmt::fmt scn::scn benri)
