@@ -1,6 +1,5 @@
 #include <string>
 #include <string_view>
-#include <vector>
 
 #include <fmt/core.h>
 #include <scn/scn.h>
@@ -32,6 +31,7 @@ auto main()
 -> int {
 	std::string name;
 	auto _ = scn::prompt("Kitty name? ", "{}", name);
+	
 	tl::optional<Kitten> kitty;
 	kitty = Kitten{name};
 	kitty.and_then(Kitten::feed)
