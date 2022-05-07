@@ -16,3 +16,6 @@
 [submodule "dry-comparisons"]
 	path = dry-comparisons
 	url = https://github.com/rollbear/dry-comparisons
+[submodule "optional"]
+	path = optional
+	url = https://github.com/TartanLlama/optional
