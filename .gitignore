@@ -29,3 +29,6 @@
 
 # CMake build directory
 build/
+
+# VIsual Studio Code
+.*/
