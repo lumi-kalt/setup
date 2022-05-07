@@ -15,5 +15,11 @@ add_subdirectory(benri)
 # Change this name later
 add_executable(setup main.cpp)
 
+target_include_directories(
+	setup
+	PUBLIC
+	dry-comparisons/
+)
+
 # Add libraries
 target_link_libraries(setup fmt::fmt scn::scn benri)

@@ -29,7 +29,3 @@
 
 # CMake build directory
 build/
-
-# Submodules
-fmt/
-scnlib/

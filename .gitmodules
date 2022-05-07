@@ -13,3 +13,6 @@
 [submodule "benri"]
 	path = benri
 	url = https://github.com/jansende/benri
+[submodule "dry-comparisons"]
+	path = dry-comparisons
+	url = https://github.com/rollbear/dry-comparisons
