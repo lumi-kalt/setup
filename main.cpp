@@ -1,5 +1,6 @@
 #include <fmt/core.h>
 #include "dry-comparisons.hpp"
+#include "tl/optional.hpp"
 
 using namespace rollbear;
 

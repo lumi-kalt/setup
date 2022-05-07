@@ -4,12 +4,6 @@
 [submodule "scnlib"]
 	path = scnlib
 	url = https://github.com/eliaskosunen/scnlib
-[submodule "random"]
-	path = random
-	url = https://github.com/effolkronium/random
-[submodule "lex"]
-	path = lex
-	url = https://github.com/PG1003/lex.git
 [submodule "benri"]
 	path = benri
 	url = https://github.com/jansende/benri

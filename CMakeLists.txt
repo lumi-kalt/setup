@@ -17,9 +17,10 @@ add_executable(setup main.cpp)
 
 target_include_directories(
 	setup
-	PUBLIC
-	dry-comparisons
+	PUBLIC dry-comparisons
+	PUBLIC optional/include
 )
+
 
 # Add libraries
 target_link_libraries(setup fmt::fmt scn::scn benri)
