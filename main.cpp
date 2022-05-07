@@ -31,11 +31,12 @@ auto main()
 -> int {
 	std::string name;
 	auto _ = scn::prompt("Kitty name? ", "{}", name);
-	
+
 	tl::optional<Kitten> kitty;
 	kitty = Kitten{name};
 	kitty.and_then(Kitten::feed)
-		 .map(Kitten::pat);
+		 .map(Kitten::pat)
+		 .or_else([] { fmt::print("\nThis is not a kitten!?"); });
 
 	kitty = tl::nullopt;
 	kitty.and_then(Kitten::feed)
