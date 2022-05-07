@@ -18,7 +18,7 @@ add_executable(setup main.cpp)
 target_include_directories(
 	setup
 	PUBLIC
-	dry-comparisons/
+	dry-comparisons
 )
 
 # Add libraries
